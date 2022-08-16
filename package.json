@@ -1,19 +1,29 @@
 {
-  "name": "nodejsavancado",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Daniel25778/NodeJS-Avancado-com-TDD-Clean-architecture-TypeScript.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Daniel25778/NodeJS-Avancado-com-TDD-Clean-architecture-TypeScript/issues"
-  },
-  "homepage": "https://github.com/Daniel25778/NodeJS-Avancado-com-TDD-Clean-architecture-TypeScript#readme"
+    "name": "nodejsavancado",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rimraf dist && tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Daniel25778/NodeJS-Avancado-com-TDD-Clean-architecture-TypeScript.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Daniel25778/NodeJS-Avancado-com-TDD-Clean-architecture-TypeScript/issues"
+    },
+    "homepage": "https://github.com/Daniel25778/NodeJS-Avancado-com-TDD-Clean-architecture-TypeScript#readme",
+    "dependencies": {
+        "rimraf": "^3.0.2"
+    },
+    "devDependencies": {
+        "typescript": "^4.7.4"
+    },
+    "engines": {
+        "node": "16.x"
+    }
 }
