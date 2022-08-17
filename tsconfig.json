@@ -5,6 +5,7 @@
         "outDir": "dist",
         "sourceMap": true,
         "forceConsistentCasingInFileNames": true,
+<<<<<<< HEAD
         "skipLibCheck": true,
         "moduleResolution": "node",
         "module": "commonjs",
@@ -15,6 +16,9 @@
             "@/tests/*": ["../tests/*"]
         },
         "strict": false
+=======
+        "skipLibCheck": true
+>>>>>>> 731138eea97bb4cf44098c06a19fd2fa9dfd9b4f
     },
     "include": ["./src/"]
 }
